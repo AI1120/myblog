@@ -31,5 +31,6 @@ urlpatterns = [
     path('delete_co', delete_co),
     # path('getcookie', showcookie),
     # path('student/', include('student.urls')),
-    path('registration/', include('registration.urls'))
+    path('registration/', include('registration.urls')),
+    path('upload/', include('profile_maker.urls'))
 ]
