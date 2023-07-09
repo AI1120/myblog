@@ -20,6 +20,8 @@ from .views import *
 
 
 urlpatterns = [
+    path('testcookie/', cookie_session),
+    path('deletecookie/', cookie_delete),
     path('redirect/', data_flair),
     path('dataflair/', index),
     path('admin/', admin.site.urls),
@@ -29,4 +31,5 @@ urlpatterns = [
     path('delete_co', delete_co),
     # path('getcookie', showcookie),
     # path('student/', include('student.urls')),
+    path('registration/', include('registration.urls'))
 ]
