@@ -32,5 +32,7 @@ urlpatterns = [
     # path('getcookie', showcookie),
     # path('student/', include('student.urls')),
     path('registration/', include('registration.urls')),
-    path('upload/', include('profile_maker.urls'))
+    path('upload/', include('profile_maker.urls')),
+    path('', include('home.urls')),
+    
 ]
