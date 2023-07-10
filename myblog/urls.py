@@ -34,5 +34,6 @@ urlpatterns = [
     path('registration/', include('registration.urls')),
     path('upload/', include('profile_maker.urls')),
     path('', include('home.urls')),
-    
+    path('ajax/', include('post.urls')),
+
 ]

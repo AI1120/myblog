@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'registration',
     'profile_maker',
     'home',
+    'post',
 ]
 
 MIDDLEWARE = [
@@ -128,7 +129,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'root')
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'boot'),
 ]
 
 # Default primary key field type
