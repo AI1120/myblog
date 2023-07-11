@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'profile_maker',
     'home',
     'post',
+    'Cars',
+    'products',
 ]
 
 MIDDLEWARE = [
@@ -90,7 +92,12 @@ DATABASES = {
         'HOST' : 'localhost',
     }
 }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': 'mydatabase',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
